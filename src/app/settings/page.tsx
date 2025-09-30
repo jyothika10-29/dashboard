@@ -1,4 +1,4 @@
-// src/app/settings/page.tsx
+
 "use client";
 import React from "react";
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
@@ -27,7 +27,7 @@ export default function SettingsPage() {
       <h2 className="text-3xl font-bold tracking-tight">Settings</h2>
 
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {/* Account Settings Card */}
+      
         <Card className="rounded-xl col-span-1 md:col-span-2 lg:col-span-3">
           <CardHeader>
             <CardTitle>Account</CardTitle>
@@ -45,7 +45,7 @@ export default function SettingsPage() {
           </CardContent>
         </Card>
 
-        {/* Notifications Settings Card */}
+    
         <Card className="rounded-xl">
           <CardHeader>
             <CardTitle>Notifications</CardTitle>
@@ -63,7 +63,7 @@ export default function SettingsPage() {
           </CardContent>
         </Card>
 
-        {/* Theme Settings Card (Placeholder) */}
+      
         <Card className="rounded-xl">
           <CardHeader>
             <CardTitle>Theme</CardTitle>

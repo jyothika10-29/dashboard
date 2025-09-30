@@ -1,12 +1,10 @@
-// src/app/profile/page.tsx
+
 "use client";
 
 import React from "react";
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-// You may need to import other components from your project
-// import PageTitle from "../components/pagetitle";
 
 export default function UserProfilePage() {
   const user = {

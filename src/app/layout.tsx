@@ -1,4 +1,4 @@
-// app/layout.tsx
+
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Nav}  from "@/components/Navbar";

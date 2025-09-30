@@ -7,8 +7,6 @@ import { BellRing, Check, Droplet, Circle, LineChart, Users, CircleUser, Trendin
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Progress } from "@/components/ui/progress";
 import { Toaster, toast } from "sonner";
-
-// Sample data (can be replaced with a real API call)
 const activity = [
     { date: "Sep 18", type: "Running", duration: "30 min" },
     { date: "Sep 17", type: "Weightlifting", duration: "45 min" },
@@ -48,7 +46,6 @@ export default function DashboardPage() {
 
     const progressPercentage = Math.min((steps / goal) * 100, 100);
 
-    // Function to get a dynamic insight message
     const getInsight = () => {
       if (steps >= goal) {
         return { text: "You've crushed your goal! Keep up the great work.", icon: Sparkles };

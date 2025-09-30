@@ -1,13 +1,13 @@
-// src/app/dashboard/sleep-tracker/page.tsx
+
 "use client";
-import { useState } from 'react'; // <--- Import useState
+import { useState } from 'react'; 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
-import { Input } from '@/components/ui/input'; // <--- Import Input
-import { Label } from '@/components/ui/label'; // <--- Import Label
+import { Input } from '@/components/ui/input'; 
+import { Label } from '@/components/ui/label'; 
 
 export default function SleepTrackerPage() {
-  const [hoursSlept, setHoursSlept] = useState(7.5); // <--- Use state
+  const [hoursSlept, setHoursSlept] = useState(7.5); 
   const goal = 8;
   const progressValue = (hoursSlept / goal) * 100;
 
@@ -33,7 +33,7 @@ export default function SleepTrackerPage() {
                 <span className="text-lg font-bold">{goal} hours</span>
               </div>
               <Progress value={progressValue} className="w-full" />
-              {/* --- New Interactive Input --- */}
+            
               <div className="space-y-2">
                 <Label htmlFor="hoursSlept">Log hours slept last night</Label>
                 <Input
@@ -44,7 +44,7 @@ export default function SleepTrackerPage() {
                   onChange={(e) => setHoursSlept(parseFloat(e.target.value))}
                 />
               </div>
-              {/* --------------------------- */}
+          
               <div className="mt-4 grid grid-cols-2 gap-4">
                 <div className="p-4 rounded-md border text-center">
                   <p className="text-sm font-medium">Bedtime</p>

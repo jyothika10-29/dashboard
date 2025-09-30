@@ -1,4 +1,4 @@
-// src/app/dashboard/weather/page.tsx
+
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -9,10 +9,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Loader2 } from "lucide-react"; // Spinner
+import { Loader2 } from "lucide-react"; 
 
-const API_KEY = "5a30ea4db806d81732d7177d007fb58c"; // <-- Replace with your key
-const CITY_NAME = "Bengaluru"; // <-- You can make this dynamic later
+const API_KEY = "5a30ea4db806d81732d7177d007fb58c"; 
+const CITY_NAME = "Bengaluru"; 
 
 export default function WeatherPage() {
   const [weatherData, setWeatherData] = useState<any>(null);
@@ -64,7 +64,6 @@ export default function WeatherPage() {
     );
   }
 
-  // Handle missing or invalid data
   if (!weatherData || !weatherData.main || !weatherData.weather) {
     return (
       <Card className="w-full max-w-lg mx-auto p-6">
@@ -78,7 +77,6 @@ export default function WeatherPage() {
     );
   }
 
-  // Safe destructuring
   const main = weatherData.main;
   const weather = weatherData.weather;
   const temperature = Math.round(main.temp);
