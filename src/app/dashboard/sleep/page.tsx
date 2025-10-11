@@ -23,7 +23,7 @@ export default function SleepTrackerPage() {
             <span className="text-8xl">😴</span>
             <div className="text-center">
               <h2 className="text-5xl font-bold">{hoursSlept}h</h2>
-              <p className="text-muted-foreground">Last night's sleep duration</p>
+              <p className="text-muted-foreground">Last night sleep duration</p>
             </div>
           </div>
           <div className="mt-8">

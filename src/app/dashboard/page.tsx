@@ -2,9 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { BellRing, Check, Droplet, Circle, LineChart, Users, CircleUser, TrendingUp, Sparkles, Goal } from "lucide-react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { BellRing, Check, Droplet, LineChart, Users, TrendingUp, Sparkles, Goal } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 import { Toaster, toast } from "sonner";
 const activity = [
@@ -88,7 +86,7 @@ export default function DashboardPage() {
                         </CardHeader>
                         <CardContent>
                             <div className="text-2xl font-bold">{calories} kcal</div>
-                            <p className="text-xs text-muted-foreground">Today's total</p>
+                            <p className="text-xs text-muted-foreground">Todays total</p>
                         </CardContent>
                     </Card>
                     <Card className="rounded-xl">
@@ -98,7 +96,7 @@ export default function DashboardPage() {
                         </CardHeader>
                         <CardContent>
                             <div className="text-2xl font-bold">{activeMinutes} min</div>
-                            <p className="text-xs text-muted-foreground">Today's total</p>
+                            <p className="text-xs text-muted-foreground">Todays total</p>
                         </CardContent>
                     </Card>
                     <Card className="rounded-xl">
@@ -149,7 +147,7 @@ export default function DashboardPage() {
                     </Card>
                     <Card className="col-span-3 rounded-xl">
                         <CardHeader>
-                            <CardTitle>Today's Insights</CardTitle>
+                            <CardTitle>Today Insights</CardTitle>
                             <CardDescription>A quick look at your progress.</CardDescription>
                         </CardHeader>
                         <CardContent className="flex items-center space-x-4">

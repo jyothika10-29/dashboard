@@ -67,7 +67,7 @@ export default function SettingsPage() {
         <Card className="rounded-xl">
           <CardHeader>
             <CardTitle>Theme</CardTitle>
-            <CardDescription>Customize the app's appearance.</CardDescription>
+            <CardDescription>Customize the app appearance.</CardDescription>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">Theme is controlled by the toggle on your sidebar.</p>

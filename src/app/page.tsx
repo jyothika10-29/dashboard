@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import PageTitle from "../components/pagetitle";
 import DashboardOverview from "./dashboard/page";
 import FitnessPage from "./dashboard/fitness/page";
@@ -6,7 +6,7 @@ import WeatherPage from "./dashboard/weather/page";
 import NotesPage from "./dashboard/notes/page";
 import SleepTrackerPage from "./dashboard/sleep/page";
 import WaterReminderPage from "./dashboard/water/page";
-import UserProfilePage from "./user/page";
+
 
 export default function Home() {
   return (

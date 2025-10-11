@@ -29,7 +29,7 @@ export default function FitnessPage() {
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-bold">520 kcal</div>
-            <p className="text-sm text-muted-foreground">Today's total</p>
+            <p className="text-sm text-muted-foreground">Todays total</p>
           </CardContent>
         </Card>
         <Card>
@@ -38,7 +38,7 @@ export default function FitnessPage() {
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-bold">95 min</div>
-            <p className="text-sm text-muted-foreground">Today&#39;s total</p>
+            <p className="text-sm text-muted-foreground">Todays total</p>
 
           </CardContent>
         </Card>

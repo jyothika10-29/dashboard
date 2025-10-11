@@ -1,9 +1,7 @@
 
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
-import { Nav}  from "@/components/Navbar";
 import Sidebar from "../components/ui/sidebar";
-import { cn } from "../lib/utils";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
