@@ -38,7 +38,8 @@ export default function FitnessPage() {
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-bold">95 min</div>
-            <p className="text-sm text-muted-foreground">Today's total</p>
+            <p className="text-sm text-muted-foreground">Today&#39;s total</p>
+
           </CardContent>
         </Card>
       </div>
